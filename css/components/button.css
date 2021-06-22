@@ -1,0 +1,29 @@
+.button
+{
+    display: inline-block;
+    background-color: #fdcb6e;
+    box-shadow: 5px 5px 0px #000;
+    padding: 18px 20px;
+    margin-right: 0;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.button:hover
+{
+    background-color: #fff;
+    color: #fdcb6e;
+}
+
+.botao
+{
+    position: absolute;
+    top: 418px;
+    left: 181px;
+}
+
+.download
+{
+    margin-right: 142px;
+}
