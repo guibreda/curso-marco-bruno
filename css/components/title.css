@@ -1,6 +1,6 @@
 .title
 {
-    color: #F25A70;
+    color: var(--color-title);
     font-family: 'Press Start 2P', sans-serif;
     font-size: 40px;    
     text-shadow: 4px 4px 0px #000;

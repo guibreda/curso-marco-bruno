@@ -5,3 +5,16 @@
     font-family: 'Press Start 2P', sans-serif;
     text-shadow: 4px 4px 0px #000;
 }
+
+.subtitle.-second
+{
+    text-shadow: none;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.subtitle.-third
+{
+    font-size: 25px;
+    text-shadow: none;
+}
