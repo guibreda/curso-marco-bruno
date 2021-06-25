@@ -1,0 +1,13 @@
+.main-subtitle
+{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Press Start 2P', sans-serif;
+    text-shadow: 4px 4px 0px #000;
+}
+
+.main-subtitle.-second
+{
+    text-shadow: none;
+    text-align: center;
+}
