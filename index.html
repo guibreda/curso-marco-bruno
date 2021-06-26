@@ -15,10 +15,12 @@
     <link rel="stylesheet" href="css/components/wallpaper.css"> 
     <link rel="stylesheet" href="css/components/button.css">
     <link rel="stylesheet" href="css/components/title.css">
-    <link rel="stylesheet" href="css/components/subtitle.css">
+    <link rel="stylesheet" href="css/components/main-subtitle.css">
     <link rel="stylesheet" href="css/components/box.css">
     <link rel="stylesheet" href="css/components/action.css">
-    <link rel="stylesheet" href="css/components/skills.css">
+    <link rel="stylesheet" href="css/components/section.css">
+    <link rel="stylesheet" href="css/components/skill-tec.css">
+    <link rel="stylesheet" href="css/components/progress-bar.css">
 
     <!-- FONTES -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -42,7 +44,7 @@
         <div class="wrapper">
             <div class="box">
                 <h1 class="title">Guilherme Breda</h1>
-                <h2 class="subtitle">FrontEnd Developer</h2>
+                <h2 class="main-subtitle">FrontEnd Developer</h2>
             </div>
             
             <div class="botoes">
@@ -52,40 +54,15 @@
         </div>
     </section>    
 
-    <section class="skills">
-        <h2 class="subtitle -second" lang="en">Skills</h2>
-        <div class="html">
-            <img src="assets/img/ico_html5.png" alt="Logo do html 5">
-            <h3 class="subtitle -third">HTML 5</h3>
-        </div>
-        <div class="">
-            <img src="assets/img/ico_nodejs.png" alt="Logo do nodejs">
-            <h3 class="subtitle -third">NodeJS</h3>
-        </div>
-        <div class="">
-            <img src="" alt="Logo d">
-            <h3 class="subtitle -third">CSS 3</h3>
-        </div>
-        <div class="">
-            <img src="" alt="Logo d">
-            <h3 class="subtitle -third">TDD</h3>
-        </div>
-        <div class="">
-            <img src="" alt="Logo d">
-            <h3 class="subtitle -third">JavasCript</h3>
-        </div>
-        <div class="">
-            <img src="" alt="Logo d">
-            <h3 class="subtitle -third">Rest API</h3>
-        </div>
-        <div class="">
-            <img src="" alt="Logo d">
-            <h3 class="subtitle -third">React</h3>
-        </div>
-        <div class="">
-            <img src="" alt="Logo d">
-            <h3 class="subtitleh3">UX</h3>
-        </div>
+    <section class="section">
+        <h2 class="main-subtitle -second" lang="en">Skills</h2>
+        <article class="skill-tec">
+            <img class="icon" src="assets/img/ico_html5.png" alt="Logo do html 5">
+            <div class="right">
+                <h3 class="subtitle">HTML 5</h3>
+                <progress class="progress-bar" max="100" value="70">70</progress>
+            </div>
+        </article>
     </section>
 </body>
 </html>

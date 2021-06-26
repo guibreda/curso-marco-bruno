@@ -1,9 +1,0 @@
-.skills
-{
-    height: 740px;
-    background-color: var(--color-background-skills);
-    border-bottom: 10px solid #7C5E99;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-}
