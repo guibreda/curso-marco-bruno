@@ -1,0 +1,26 @@
+.photo-project
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px 0 #fff;    
+}
+
+.photo-project.-blue
+{
+background-color: blue;
+}
+
+.photo-project.-yellow
+{
+    background-color: yellow;
+}
+
+.photo-project:first-child,
+.photo-project:nth-child(even)
+{
+    margin-right: 150px;
+}

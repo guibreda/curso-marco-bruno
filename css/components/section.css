@@ -5,3 +5,9 @@
     padding-top: 50px;
     padding-bottom: 100px;
 }
+
+.section.-projetcs
+{
+    background-color: #000;
+    border-bottom: 10px solid var(--color-background-skills);
+}
