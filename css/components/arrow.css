@@ -1,0 +1,32 @@
+.arrow
+{
+    background-color: var(--color-background-arrow);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 5px 5px 0 #000;
+}
+
+.arrow::after
+{
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    border: 15px solid transparent;
+    border-left: 25px solid #fff;
+    transform: translateX(9px);
+}
+
+.arrow.left::after
+{
+    border-right: 25px solid #fff;
+    border-left: transparent;
+    transform: translateX(5px);
+}
+
+.arrow .content
+{
+    display: none;
+}
