@@ -11,3 +11,9 @@
     background-color: #000;
     border-bottom: 10px solid var(--color-background-skills);
 }
+
+.section.-aboutMe
+{
+    background-color: var(--color-background-about);
+    border-bottom: 10px solid #000;
+}

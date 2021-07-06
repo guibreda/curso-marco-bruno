@@ -1,11 +1,12 @@
 :root
 {
     --color-button: #fdcb6e;
+    --color-title: #F25A70;
+    --color-square: #fdcb6e;
+    --color-progress-bar: #B53471;
     --color-background-box: #3A4042;
     --color-background-header: #0984e3;
-    --color-square: #fdcb6e;
-    --color-title: #F25A70;
     --color-background-skills: #0abde3;
-    --color-progress-bar: #B53471;
     --color-background-arrow: #01a3a4;
+    --color-background-about: #7C5E99;
 }

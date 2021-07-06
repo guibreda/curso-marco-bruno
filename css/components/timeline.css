@@ -1,0 +1,62 @@
+.timeline
+{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 66px;
+}
+
+.timeline::after
+{
+    content: '';
+    position: absolute;
+    display: block;
+    width: calc(100% - 80px);
+    height: 6px;
+    left: 40px;
+    top: 30px;    
+    background-color: #000;
+}
+
+.timeline::before
+{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 99.6%;
+    border: 3px dashed #000;
+    left: 0;
+    top: 30px;
+}
+
+.timeline .arrow
+{
+    position: absolute;
+    bottom: 90px;
+    transform: translateY(50%);
+}
+
+.timeline .arrow.left
+{
+    left: 15px;
+}
+
+.timeline .arrow.right
+{
+    right: 15px;
+}
+
+.timeline .hidden-timeline
+{    
+    width: 100%;
+    overflow: hidden;
+}
+
+.timeline .items-timeline
+{
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(0px);
+}
