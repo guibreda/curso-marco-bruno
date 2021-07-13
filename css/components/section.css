@@ -17,3 +17,9 @@
     background-color: var(--color-background-about);
     border-bottom: 10px solid #000;
 }
+
+.section.-contact
+{
+    background-color: #3a4042;
+    border-bottom: none;
+}
